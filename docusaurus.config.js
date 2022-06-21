@@ -9,7 +9,7 @@ const config = {
   title: 'Flashbake',
   tagline: 'A private mempool for Tezos',
   url: 'https://flashbake.xyz',
-  baseUrl: '/documentation',
+  baseUrl: '/documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
