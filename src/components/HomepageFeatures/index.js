@@ -3,15 +3,6 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 
 const FeatureList = [
-  {
-    title: 'Statistics',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Statistics go here
-      </>
-    ),
-  },
 ];
 
 function Feature({ Svg, title, description }) {
@@ -33,6 +24,7 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
+          Statistics go here
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
