@@ -59,7 +59,7 @@ const config = {
       navbar: {
         title: 'Flashbake',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Flashbake logo',
           src: 'img/flashbake.jpeg',
         },
         items: [
@@ -67,9 +67,8 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
