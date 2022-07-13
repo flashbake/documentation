@@ -2,7 +2,7 @@
 
 Every Flashbaker must expose a `https` endpoint to receive bundles from the relay. The purpose of the Flashbake Endpoint software is to listen to this endpoint, run an auction, then submit the winning bundle to the baker.
 
-## Endpoint operation
+## Endpoint Operation
 
 The Flashbake Endpoint listens on two ports:
 
@@ -13,7 +13,7 @@ The Flashbake endpoint may receive several bundles for inclusion from potentiall
 
 The other transactions get discarded.
 
-## How to run the Flashbake Endpoint
+## How to Run the Flashbake Endpoint
 
 The endpoint is unique per Tezos baker and needs access to the RPC of the node associated with the baker.
 
@@ -26,18 +26,19 @@ npm install -g @flashbake/baker-endpoint
 Then run it:
 
 ```
-flashbake-baker-endpoint start --node_rpc_endpoint http://localhost:8732 --relay_listener_port 11732 --baker_listener_port 12732
+flashbake-baker-endpoint run --tezos_rpc_url http://localhost:8732 --relay_listener_port 11732 --baker_listener_port 12732
 ```
 
 ### Install it with docker
 
 ```
-docker run ghcr.io/flashbake/baker-endpoint:latest --node_rpc_endpoint http://localhost:8732 --relay_listener_port 11732 --baker_listener_port 12732
+docker run ghcr.io/flashbake/baker-endpoint:latest run --tezos_rpc_url http://localhost:8732 --relay_listener_port 11732 --baker_listener_port 12732
 ```
 
 ### Install it with Helm
 
 ```
+helm repo add flashbake https://flashbake.github.io/endpoints-monorepo/
 helm install flashbake-endpoint-0 flashbake/baker-endpoint --namespace flashbake --set tezos_rpc_url=http://flashbake-baker-0:8732 --set relay_listener_port=11732 --set baker_listener_port=12732
 ```
 
