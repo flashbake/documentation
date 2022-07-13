@@ -4,7 +4,7 @@
 
 This is how a Tezos transaction normally happens:
 
-![Normal Flow](static/img/normal_transaction_flow.svg)
+![Normal Flow](/img/normal_transaction_flow.drawio.svg)
 
 1. User submits a transaction to a Tezos node actings as RPC gateway: it could be a local node, or a backend node operated by the Defi or NFT Dapp,
 1. The transaction is added to the mempool and propagates via the peer-to-peer network,
@@ -15,7 +15,7 @@ We can see that this transcation is **not private** before getting included in a
 
 ## Flashbake Transaction Flow
 
-![Flashbake Flow](static/img/flashbake_flow.svg)
+![Flashbake Flow](/img/flashbake_flow.svg)
 
 1. User submits a transaction to the **Flashbake Relay**. It could be the relay hosted here (`https://ghostnet.relay.flashbake.xyz`) or you can also run your own,
 1. For all intents and purposes (**except injection**), the Flasbake Relay acts as a Tezos Node and forwards all RPC queries to it,
