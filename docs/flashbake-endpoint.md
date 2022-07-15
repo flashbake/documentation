@@ -44,4 +44,14 @@ helm install flashbake-endpoint-0 flashbake/baker-endpoint --namespace flashbake
 
 ## Configure the baker to query the Flashbake Endpoint
 
-Pass the operation to the baker
+In order for your Octez baker to query the endpoint and receive Flashbake operations each time it bakes, pass the following argument:
+
+```
+--operations-pool http(s)://<ENDPOINT_HOSTNAME>:<ENDPOINT_BAKER_LISTENER_PORT>
+```
+
+Full example:
+
+```
+tezos-baker-013-PtJakart bake with local node /path/to/local/node/datadir --operations-pool http://localhost:12732 mybakert
+```

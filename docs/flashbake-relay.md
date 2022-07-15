@@ -53,7 +53,3 @@ docker run ghcr.io/flashbake/relay:latest run --tezos_rpc_url http://localhost:8
 helm repo add flashbake https://flashbake.github.io/endpoints-monorepo/
 helm install flashbake-relay flashbake/relay --namespace flashbake --set tezos_rpc_url=http://localhost:8732 --set registry_contract=KT1QuofAgnsWffHzLA7D78rxytJruGHDe7XG --set relay_port=10732
 ```
-
-## Configure the baker to query the Flashbake Endpoint
-
-Pass the operation to the baker
