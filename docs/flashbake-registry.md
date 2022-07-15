@@ -12,7 +12,7 @@ To register as a flashbaker, issue the following command:
 
 ```
 tezos-client \
-  transfer 1 from <YOUR BAKER ADDRESS> to KT1GJKrZrVBEFARZi1D3YJxVEJm8sR7Eng5w \
+  transfer 10 from <YOUR BAKER ADDRESS> to KT1CWuYkWxZMSq8kA12Kt5NpFGjSRac1Dc4r \
   --entrypoint 'register' \
   --arg '"<YOUR FLASHBAKE_ENDPOINT_URL>"'
 ```
@@ -21,12 +21,11 @@ To unregister and get your bond back:
 
 ```
 tezos-client \
-  transfer 0 from <YOUR BAKER ADDRESS> to KT1GJKrZrVBEFARZi1D3YJxVEJm8sR7Eng5w \
-  --entrypoint 'unregister' \
-  --arg 'Unit'
+  transfer 0 from <YOUR BAKER ADDRESS> to KT1CWuYkWxZMSq8kA12Kt5NpFGjSRac1Dc4r \
+  --entrypoint 'unregister'
 ```
 
-To update your flashbake endpoint address, you must unregister then re-register yourself.
+To update your flashbake endpoint address, you must unregister then re-register.
 
 ## Multi-sig setup
 
