@@ -12,15 +12,18 @@ To register as a flashbaker, issue the following command:
 
 ```
 tezos-client \
+  --endpoint https://rpc.ghostnet.teztnets.xyz \
   transfer 10 from <YOUR BAKER ADDRESS> to KT1CWuYkWxZMSq8kA12Kt5NpFGjSRac1Dc4r \
   --entrypoint 'register' \
   --arg '"<YOUR FLASHBAKE_ENDPOINT_URL>"'
+  --burn-cap 0.037
 ```
 
 To unregister and get your bond back:
 
 ```
 tezos-client \
+  --endpoint https://rpc.ghostnet.teztnets.xyz \
   transfer 0 from <YOUR BAKER ADDRESS> to KT1CWuYkWxZMSq8kA12Kt5NpFGjSRac1Dc4r \
   --entrypoint 'unregister'
 ```
