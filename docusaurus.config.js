@@ -63,6 +63,11 @@ const config = {
             label: 'Documentation',
           },
           {
+            href: 'https://github.com/flashbake/endpoints-monorepo/releases',
+            label: 'Releases',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/flashbake',
             label: 'GitHub',
             position: 'right',
