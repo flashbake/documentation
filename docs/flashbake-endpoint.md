@@ -13,6 +13,14 @@ The Flashbake endpoint may receive several bundles for inclusion from potentiall
 
 The other transactions get discarded.
 
+:::caution
+
+In order to accept transactions, the address of your baker endpoint is published on-chain. It is therefore public and may be victim of DDoS attacks. It is a good idea to protect your endpoint with anti-DDoS services such as [Cloudflare](https://cloudflare.com).
+
+On the Tezos network, the baker's IP addresses are hidden. It is recommended to host your flashbake endpoint in a different system than your baker, with a different IP. Otherwise, your baker's address will be exposed. The flashbake endpoint must be able to communicate with the baker and vice-versa.
+
+:::
+
 ## How to Run the Flashbake Endpoint
 
 The endpoint is unique per Tezos baker and needs access to the RPC of the node associated with the baker.
