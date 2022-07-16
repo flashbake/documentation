@@ -16,12 +16,14 @@ const sidebars = {
   flashbakeSidebar: [
     'intro',
     'architecture',
+    'public-relay',
     {
       type: 'category',
-      label: 'Run Flashbake',
+      label: 'Be a Flashbaker',
       collapsed: false,
-      items: ['flashbake-registry', 'flashbake-endpoint', 'flashbake-relay'],
+      items: ['flashbake-endpoint', 'flashbake-registry'],
     },
+    'flashbake-relay',
   ],
 };
 

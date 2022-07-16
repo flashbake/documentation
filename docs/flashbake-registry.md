@@ -1,10 +1,12 @@
 # Flashbake Registry
 
+Once you have set up your flashbake endpoint, you must register it on-chain.
+
 The Flashbake Registry is an on-chain table associating bakers with their Flashbake endpoint URL.
 
 Any baker can register as a flashbaker by submitting their URL.
 
-To prevent spam, the flashbaker is required to deposit Tez into the contract in order to have their address registered.
+To prevent spam, the flashbaker is required to deposit Tez into the contract in order to have their address registered. On Ghostnet, this fee is set to 1 tez.
 
 ## How to register as a flashbaker on Ghostnet
 
@@ -13,7 +15,7 @@ To register as a flashbaker, issue the following command:
 ```
 tezos-client \
   --endpoint https://rpc.ghostnet.teztnets.xyz \
-  transfer 10 from <YOUR BAKER ADDRESS> to KT1CWuYkWxZMSq8kA12Kt5NpFGjSRac1Dc4r \
+  transfer 1 from <YOUR BAKER ADDRESS> to KT1CWuYkWxZMSq8kA12Kt5NpFGjSRac1Dc4r \
   --entrypoint 'register' \
   --arg '"<YOUR FLASHBAKE_ENDPOINT_URL>"'
   --burn-cap 0.037
