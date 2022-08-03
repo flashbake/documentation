@@ -8,7 +8,7 @@ The Flashbake relay is aware of who the next flashbaker is. This means, the flas
 
 The Flashbake Endpoint listens on two ports:
 
-* `relay_listener_port`: this is the endpoint advertised in the registry.
+* `relay_listener_port`: this is the port for the endpoint advertised in the registry. It listens to bundles of transactions to be POSTed to the `/flashbake/bundle` path,
 * `baker_listener_port`: the baker sends a query to this port when preparing for baking a block.
 
 The Flashbake endpoint may receive several bundles for inclusion from potentially several relays. When receiving a mempool query from the baker, the endpoint performs an **auction**: the transaction with the highest fee gets included.

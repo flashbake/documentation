@@ -26,18 +26,18 @@ npm install -g @flashbake/relay
 Then run it:
 
 ```
-flashbake-relay run --tezos_rpc_url http://localhost:8732 --registry_contract KT1QuofAgnsWffHzLA7D78rxytJruGHDe7XG --relay_port 10732
+flashbake-relay run --tezos_rpc_url http://localhost:8732 --registry_contract KT1CWuYkWxZMSq8kA12Kt5NpFGjSRac1Dc4r --relay_port 10732
 ```
 
 ### Install it with docker
 
 ```
-docker run ghcr.io/flashbake/relay:latest run --tezos_rpc_url http://localhost:8732 --registry_contract KT1QuofAgnsWffHzLA7D78rxytJruGHDe7XG --relay_port 10732
+docker run ghcr.io/flashbake/relay:latest run --tezos_rpc_url http://localhost:8732 --registry_contract KT1CWuYkWxZMSq8kA12Kt5NpFGjSRac1Dc4r --relay_port 10732
 ```
 
 ### Install it with Helm
 
 ```
 helm repo add flashbake https://flashbake.github.io/endpoints-monorepo/
-helm install flashbake-relay flashbake/relay --namespace flashbake --set tezos_rpc_url=http://localhost:8732 --set registry_contract=KT1QuofAgnsWffHzLA7D78rxytJruGHDe7XG --set relay_port=10732
+helm install flashbake-relay flashbake/relay --namespace flashbake --set tezos_rpc_url=http://localhost:8732 --set registry_contract=KT1CWuYkWxZMSq8kA12Kt5NpFGjSRac1Dc4r --set relay_port=10732
 ```

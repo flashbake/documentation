@@ -21,6 +21,8 @@ tezos-client \
   --burn-cap 0.037
 ```
 
+`<YOUR_FLASHBAKE_ENDPOINT_URL>` should be the Flashbake endpoint relay listener URL. It is typically `https://<address>:<port>/flashbake/bundle`, where the relay listener of your Flashbake endpoint is publicly accessible on `<address>:<port>`.
+
 To unregister and get your bond back:
 
 ```
