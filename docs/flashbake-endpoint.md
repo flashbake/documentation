@@ -21,6 +21,8 @@ In order to accept transactions, the address of your baker endpoint is published
 
 On the Tezos network, the baker's IP addresses are hidden. It is recommended to host your flashbake endpoint in a different system than your baker, with a different IP. Otherwise, your baker's address will be exposed. The flashbake endpoint must be able to communicate with the baker and vice-versa.
 
+Cloud baking setups should consider exposing the Flashbake endpoint through an Application Load Balancer.
+
 :::
 
 ## How to Run the Flashbake Endpoint
