@@ -30,7 +30,7 @@ export default function Home() {
           <div className="container text--center">
             <div className="row">
               <p style={{ marginTop: 4 + 'em' }}>
-                <h1>Flashbake is available on Ghostnet! Read more on <a href="https://medium.com">FIXME the Medium post FIXME</a>.</h1>
+                <h1>Flashbake is available on Ghostnet! Read more on <a href="https://medium.com/flashbake/flashbake-is-available-on-ghostnet-463088524a98">the Medium post</a>.</h1>
               </p>
               <p style={{ marginBottom: 4 + 'em' }}>
                 <h2>Use the following endpoint to send a Flashbake transaction: <code>--endpoint https://ghostnet.relay.flashbake.xyz</code>.</h2>
