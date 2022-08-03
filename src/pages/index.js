@@ -40,16 +40,16 @@ export default function Home() {
           <div className="container text--center">
             <div className="row">
               <div className="col">
-                <h3>Number of Flashbake transactions</h3>
-                <img src="https://gorgon.service.eu.newrelic.com/image/a94ba54e-f622-4d9e-b70a-47eb9dbf93e2?type=billboard" height="280px" />
+                <h3>Number of Flashbake transactions in the last 3 days</h3>
+                <img src="https://gorgon.service.eu.newrelic.com/image/6096558e-ce50-408d-abf1-3fbc5bb5f33c?type=billboard" height="280px" />
               </div>
               <div className="col">
-                <h3>Number of Flashbakers on Ghostnet</h3>
-                <img src="https://gorgon.service.eu.newrelic.com/image/c732b910-d9ae-4c6d-a179-3b34507d891f?type=billboard" height="280px" />
+                <h3>Number of Ghostnet Flashbakers who processed them</h3>
+                <img src="https://gorgon.service.eu.newrelic.com/image/714d0c6c-46b0-4da1-b23e-35291af10c01?type=billboard" height="280px" />
               </div>
               <div className="col">
                 <h3>Average inclusion time</h3>
-                <img src="https://gorgon.service.eu.newrelic.com/image/95ddb8c4-eb3a-49a8-8b3e-aee1df659550?type=billboard" height="280px" />
+                <img src="https://gorgon.service.eu.newrelic.com/image/ebc5206c-bd48-4366-a567-4e54b35e87f7?type=area" height="280px" />
               </div>
             </div>
           </div>
