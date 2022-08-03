@@ -33,7 +33,7 @@ export default function Home() {
                 <h1>Flashbake is available on Ghostnet! Read more on <a href="https://medium.com/flashbake/flashbake-is-available-on-ghostnet-463088524a98">the Medium post</a>.</h1>
               </p>
               <p style={{ marginBottom: 4 + 'em' }}>
-                <h3>Use the following endpoint to send a Flashbake transaction: <code>--endpoint https://ghostnet.relay.flashbake.xyz</code>.</h3>
+                Use the following endpoint to send a Flashbake transaction: <code>--endpoint https://ghostnet.relay.flashbake.xyz</code>.
               </p>
             </div>
           </div>
