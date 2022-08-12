@@ -41,15 +41,15 @@ export default function Home() {
             <div className="row">
               <div className="col">
                 <h3>Number of Flashbake transactions in the last 3 days</h3>
-                <img src="https://gorgon.service.eu.newrelic.com/image/6096558e-ce50-408d-abf1-3fbc5bb5f33c?type=billboard" height="280px" />
+                <iframe scrolling="no" width="347" height="301" src="https://chart-embed.service.eu.newrelic.com/herald/82bd2335-3357-42d1-92e9-dcfff0665acf?height=200px&timepicker=false" frameborder="0"></iframe>
               </div>
               <div className="col">
                 <h3>Number of Ghostnet Flashbakers who processed them</h3>
-                <img src="https://gorgon.service.eu.newrelic.com/image/714d0c6c-46b0-4da1-b23e-35291af10c01?type=billboard" height="280px" />
+                <iframe scrolling="no" width="347" height="301" src="https://chart-embed.service.eu.newrelic.com/herald/225f7e63-ac66-4998-b593-871d22aa36c9?height=200px&timepicker=false" frameborder="0"></iframe>
               </div>
               <div className="col">
                 <h3>Average inclusion time</h3>
-                <img src="https://gorgon.service.eu.newrelic.com/image/ebc5206c-bd48-4366-a567-4e54b35e87f7?type=area" height="280px" />
+                <iframe scrolling="no" width="347" height="301" src="https://chart-embed.service.eu.newrelic.com/herald/044c06f2-2e5f-4ff8-ac72-2f58e947fcc5?height=200px&timepicker=false" frameborder="0"></iframe>
               </div>
             </div>
           </div>
