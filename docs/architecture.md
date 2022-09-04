@@ -17,7 +17,7 @@ We can see that this transcation is **not private** before getting included in a
 
 ![Flashbake Flow](/img/flashbake_flow.svg)
 
-1. User submits a transaction to the **Flashbake Relay**. It could be the relay hosted here (`https://ghostnet.relay.flashbake.xyz`) or the user may run their own,
+1. User submits a transaction to the **Flashbake Relay**. It could be the relay hosted here (`https://relay.flashbake.xyz`) or the user may run their own,
 1. The Flashbake Relay requires a Tezos node running locally. For all intents and purposes (**except injection**), the Flasbake Relay acts as a Tezos Node and forwards all RPC queries to it,
 1. The injection operation is intercepted. The node queries the Registry Contact for the next flashbake-capable baker's endpoint address, then forwards the operation to it,
 1. The flashbake-capable baker (or **Flashbaker**) queries the Flashbake Endpoint for Flashbake operations and uses them, as well as its node mempool, to assemble a block,
