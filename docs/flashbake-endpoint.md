@@ -68,5 +68,5 @@ In order for your Octez baker to query the endpoint and receive Flashbake operat
 Full example:
 
 ```
-tezos-baker-013-PtJakart bake with local node /path/to/local/node/datadir --operations-pool http://localhost:12732/operations-pool mybaker
+tezos-baker-PtKathma bake with local node /path/to/local/node/datadir --operations-pool http://localhost:12732/operations-pool mybaker
 ```
