@@ -35,12 +35,15 @@ export default function Home() {
               <p style={{ marginBottom: 4 + 'em' }}>
                 Use the following endpoint to send a Flashbake transaction: <code>--endpoint https://relay.flashbake.xyz</code>.
               </p>
+              <p style={{ marginBottom: 4 + 'em' }}>
+                On Ghostnet, use: <code>--endpoint https://ghostnet.relay.flashbake.xyz</code>.
+              </p>
             </div>
           </div>
           <div className="container text--center">
             <div className="row">
               <div className="col">
-                <h3>Number of Flashbake transactions in the last 3 days</h3>
+                <h3>Number of Flashbake transactions on Ghostnet in the last 3 days</h3>
                 <iframe scrolling="no" width="347" height="301" src="https://chart-embed.service.eu.newrelic.com/herald/82bd2335-3357-42d1-92e9-dcfff0665acf?height=200px&timepicker=false" frameborder="0"></iframe>
               </div>
               <div className="col">
@@ -48,7 +51,7 @@ export default function Home() {
                 <iframe scrolling="no" width="347" height="301" src="https://chart-embed.service.eu.newrelic.com/herald/225f7e63-ac66-4998-b593-871d22aa36c9?height=200px&timepicker=false" frameborder="0"></iframe>
               </div>
               <div className="col">
-                <h3>Average inclusion time</h3>
+                <h3>Average inclusion time on Ghostnet</h3>
                 <iframe scrolling="no" width="347" height="301" src="https://chart-embed.service.eu.newrelic.com/herald/044c06f2-2e5f-4ff8-ac72-2f58e947fcc5?height=200px&timepicker=false" frameborder="0"></iframe>
               </div>
             </div>
