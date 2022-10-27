@@ -1,6 +1,13 @@
-# Use the Public Relay
+# Use the Public Relays
 
-Simply use the relay address as endpoint:
+The public relays look and feel like regular Tezos RPC endpoints.
+
+Several relays are maintained by the community:
+
+| | Mainnet | Ghostnet |
+| - | ------ | ------ |
+| Flashbake | `https://relay.flashbake.xyz` | `https://ghostnet.relay.flashbake.xyz` |
+| Baking Bad | `https://flashbake.tzkt.io/mainnet` | `https://flashbake.tzkt.io/ghostnet` |
 
 
 ### On Ghostnet
