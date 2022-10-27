@@ -51,7 +51,7 @@ const config = {
         title: 'Flashbake',
         logo: {
           alt: 'Flashbake logo',
-          src: 'img/flashbake.jpeg',
+          src: 'img/flashbake.png',
         },
         items: [
           {
