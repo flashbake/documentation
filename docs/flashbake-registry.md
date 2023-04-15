@@ -25,7 +25,7 @@ tezos-client \
   --endpoint https://mainnet.smartpy.io \
   transfer 10 from <YOUR BAKER ADDRESS> to KT1PQ21pYv12aUg6tHYvM9rwekYMXUtYGo2a \
   --entrypoint 'register' \
-  --arg '"<YOUR FLASHBAKE_ENDPOINT_URL>"'
+  --arg '"<YOUR FLASHBAKE_ENDPOINT_URL>"' \
   --burn-cap 0.037
 ```
 
