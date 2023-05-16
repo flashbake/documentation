@@ -16,7 +16,7 @@ To prevent spam, the flashbaker is required to deposit Tez into the contract in 
 * [read the registry contract source code](https://github.com/flashbake/registry-contract).
 * [explore the registry contract on BCD explorer](https://better-call.dev/mainnet/KT1PQ21pYv12aUg6tHYvM9rwekYMXUtYGo2a/operations)
 
-## How to register as a flashbaker on Mainnet
+## How to register as a flashbaker on Mainnet with CLI
 
 To register as a flashbaker, issue the following command:
 
@@ -48,6 +48,18 @@ Follow same instructions than above, but:
 * `--endpoint` should be `--endpoint https://rpc.ghostnet.teztnets.xyz`
 * `transfer` recipient should be `to KT1CWuYkWxZMSq8kA12Kt5NpFGjSRac1Dc4r`
 * `transfer 1` to the register bond instead of 10.
+
+## How to register as a flashbaker on Mainnet using Better Call Dev
+
+Open the [Registry Contract Interaction Page](https://better-call.dev/mainnet/KT1PQ21pYv12aUg6tHYvM9rwekYMXUtYGo2a/interact/register).
+
+The "register" entrypoint is already selected. Set your Flashbake Endpoint Address (`https://<address>:<port>/flashbake/bundle`) as the "register" string parameter.
+
+Expend the "Optional settings" menu. Under "Amount" put "10000000" (10,000,000 mutez = 10 tez).
+
+Then press "Execute" and select "Wallet". Your baker address must be connected with Beacon Wallet. Please exercise caution when signing anything with your baker address.
+
+Confirm the operation on your wallet.
 
 ## Multi-sig setup
 
