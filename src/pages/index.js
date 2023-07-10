@@ -40,22 +40,6 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="container text--center">
-            <div className="row">
-              <div className="col">
-                <h3>Number of Flashbake transactions on Ghostnet in the last 3 days</h3>
-                <iframe scrolling="no" width="347" height="301" src="https://chart-embed.service.eu.newrelic.com/herald/82bd2335-3357-42d1-92e9-dcfff0665acf?height=200px&timepicker=false" frameborder="0"></iframe>
-              </div>
-              <div className="col">
-                <h3>Number of Ghostnet Flashbakers who processed them</h3>
-                <iframe scrolling="no" width="347" height="301" src="https://chart-embed.service.eu.newrelic.com/herald/225f7e63-ac66-4998-b593-871d22aa36c9?height=200px&timepicker=false" frameborder="0"></iframe>
-              </div>
-              <div className="col">
-                <h3>Average inclusion time on Ghostnet</h3>
-                <iframe scrolling="no" width="347" height="301" src="https://chart-embed.service.eu.newrelic.com/herald/044c06f2-2e5f-4ff8-ac72-2f58e947fcc5?height=200px&timepicker=false" frameborder="0"></iframe>
-              </div>
-            </div>
-          </div>
         </section>
       </main>
     </Layout>
