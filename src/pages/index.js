@@ -38,6 +38,9 @@ export default function Home() {
               <p style={{ marginBottom: 4 + 'em' }}>
                 On Ghostnet, use: <code>--endpoint https://ghostnet.relay.flashbake.xyz</code>.
               </p>
+              <p style={{ marginBottom: 4 + 'em' }}>
+                Learn more in the <a href="/docs/intro">Flashbake Documentation</a>.
+              </p>
             </div>
           </div>
         </section>
