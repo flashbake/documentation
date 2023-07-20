@@ -39,7 +39,7 @@ export default function Home() {
                 On Ghostnet, use: <code>--endpoint https://ghostnet.relay.flashbake.xyz</code>.
               </p>
               <p style={{ marginBottom: 4 + 'em' }}>
-                Learn more in the <a href="/docs/intro">Flashbake Documentation</a>.
+                <h3>Learn more in the <a href="/docs/intro">Flashbake Documentation</a>.</h3>
               </p>
             </div>
           </div>
